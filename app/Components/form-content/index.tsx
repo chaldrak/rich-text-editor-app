@@ -8,6 +8,7 @@ function Myform () {
             <div className="rounded-xl p-5">
                 <Image src="/administrateur-verifie-journaux-evenements-du-serveur_482257-80146.avif" alt="" width={350} height={350} className=""/>
             </div>
+
             <div className=" bg-[#98a0b33c] bg-transparent p-5 rounded-2xl m-auto">
                 <div className="">
                     <Image src="/icone-camera-rendu-3d_460848-6898.avif" alt="" width={60} height={60} className="mr-auto"/>
