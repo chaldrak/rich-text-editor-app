@@ -17,12 +17,12 @@
 }
 
 body {
-  background-color: rgb(142, 210, 142);
+  background-color: #00c08f;
 
 
 
   
-  color: #88a288
+ 
 }
 
 @layer utilities {
