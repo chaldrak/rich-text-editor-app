@@ -5,10 +5,10 @@ import React from "react";
 import Toolbar from "./Toolbar";
 import StarterKit from "@tiptap/starter-kit";
 import Underline from "@tiptap/extension-underline";
-import Link from "@tiptap/extension-link";
 import TextAlign from "@tiptap/extension-text-align";
 import Blockquote from "@tiptap/extension-blockquote";
 import Image from "@tiptap/extension-image";
+import Link from "@tiptap/extension-link";
 
 const TipTap = ({
   content,
@@ -57,7 +57,17 @@ const TipTap = ({
       <p className="text-center mt-5">
         <small className="text-gray-400 font-[Arial] text-center">
           Build with ❤️ by{" "}
-          <span className="underline italic text-sky-400">ledevmatheux</span>
+          <a
+            href="https://ledevmatheux.me"
+            target="_blank"
+            className="underline italic text-sky-400"
+          >
+            ledevmatheux
+          </a>
+          , powered by{" "}
+          <a href="https://tiptap.dev/" target="_blank" className="text-white">
+            @tiptap
+          </a>
         </small>
       </p>
     </div>
