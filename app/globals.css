@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --gray-3: #35b5ed;
+  --blue: #35b5ed;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,12 +19,7 @@
 }
 
 body {
-  background-color: #00c08f;
-
-
-
-  
- 
+  @apply bg-gray-900;
 }
 
 @layer utilities {
